@@ -1,0 +1,2 @@
+tightvncserver :1
+screen ./ngrok tcp 5901
