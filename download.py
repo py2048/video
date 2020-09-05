@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 import os
 
-m3u8 = '/Users/minhquandoan/Downloads/e37d02b7-73b1-40ec-9068-b94e8791a7d9.m3u8'
+m3u8 = '/home/codespace/workspace/video/e37d02b7-73b1-40ec-9068-b94e8791a7d9.m3u8'
 prefix = ''
-file_name = 'Sukketo_Sanjou_02.mp4'
+file_name = 'file.mp4'
 
-os.chdir('/Users/minhquandoan/Directory/temp')
+os.chdir('/home/codespace/workspace/video/temp')
 
 with open(m3u8, 'r') as file_handle:
     lines = file_handle.read().splitlines()
