@@ -1,2 +1,13 @@
+# Install
+sudo su 
+apt update
+apt -y install xfce
+apt install tightvncserver
+apt -y install firefox-esr
+apt -y install screen
+[Enter ngrok token]
+tightvncserver
+
+# Use
 tightvncserver :1
 screen ./ngrok tcp 5901
